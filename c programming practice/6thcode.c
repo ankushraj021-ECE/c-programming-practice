@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()//area and circumferemce of circe
+
+  
+{
+    system("cls");
+    
+    float R;
+    printf("Enter radius: ");
+    scanf("%f", &R);
+    printf("Area of circle = %.2f\n", 3.14*R*R);
+    printf("Circumference of circle = %.2f\n", 2*3.14*R);
+    return 0;
+}
